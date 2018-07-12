@@ -1,0 +1,209 @@
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+footer {
+    width: 100%;
+    color: black;
+    position: relative;
+    height: auto;
+    background: slategrey;
+    background-attachment: scroll;
+}
+
+li>ul {
+    style: none;
+}
+
+
+/* CSS Class*/
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    float: right;
+    margin: 20px;
+    line-height: 40px;
+}
+
+.element {
+    margin: 10px;
+}
+
+.extra {
+    margin: 10px 20px auto auto;
+}
+
+.square {
+    height: 30px;
+    margin-left: 20px;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 110px;
+    background-color: slategrey;
+    display: table;
+    text-align: center;
+}
+
+.bell {
+    position: relative;
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+}
+
+.container {
+    position: absolute;
+    top: 260px;
+    left: 480px;
+}
+
+.button-line {
+    position: relative;
+    top: 70px;
+    right: 40px;
+}
+
+.btnmain {
+    width: 190px;
+    background-color: #D3DDEA;
+    color: black;
+    border: 0px;
+}
+
+.btnmain:hover,
+.btnmain:active {
+    background-color: #FFFFFF !important;
+    color: black !important;
+    border: 1px solid slategray !important;
+    box-shadow: 0px 0px !important;
+}
+
+.feet {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+
+.card {
+    border-radius: 0% !important;
+}
+
+.btm {
+    height: 30px;
+    background-color: slategrey;
+}
+
+.left {
+    position: relative;
+    margin-left: 10px;
+    float: left;
+}
+
+.right {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+
+.it {
+    display: none;
+}
+
+.no-high {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.no-high:hover {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.text {
+    font-family: 'Verdana', sans-serif
+}
+
+.list {
+    position: absolute;
+    top: 250px;
+}
+
+.scrit,
+.scren {
+    position: relative;
+    right: 30px;
+}
+
+.btm1 {
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+
+.btm2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.hon {
+    position: relative;
+    margin-left: 40px
+}
+
+.back {
+    position: relative;
+    margin-left: 40px;
+}
+
+
+/* CSS id*/
+
+#note {
+    position: relative;
+    bottom: 5px;
+}
+
+#access {
+    width: 70px;
+}
+
+#bar {
+    position: relative;
+    top: 20px;
+    right: 150px;
+    width: 600px;
+    height: 40px;
+    box-shadow: 1px 1px slategray;
+}
+
+#it,
+#en {
+    color: blue;
+    position: relative;
+}
+
+#change {
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+
+#result {
+    display: none;
+}
